@@ -1,0 +1,27 @@
+.search-inp{
+    display: flex;
+    justify-content: center;
+    /* margin-top: 20px; */
+    background-color: #1E1E29;
+    color: white;
+    border-radius: 5px;
+    padding: 0px 20px 0px 20px;
+    width: 80%;
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+    border: 1px solid #969699;
+    outline: none;
+    height:5vh;
+    margin-right:  auto;
+    margin-left: auto;
+    margin-bottom: 0.5rem;
+}
+
+.invalid{
+    display: flex;
+    justify-content: center;
+    color: rgb(216, 114, 114);
+    font-size: 14px;
+    font-family: 'Nunito', sans-serif;
+    margin-top: 0.5rem;
+}

@@ -1,0 +1,112 @@
+.card{
+    width: 100%;
+    border-radius: 5px;
+    color: aliceblue;
+    /* kapalı hava */
+    /* background: rgb(176,173,174);
+    background: radial-gradient(circle, rgba(176,173,174,1) 0%, rgba(139,157,179,1) 100%); */
+    /* açık hava için  */
+    /* background: rgb(241,241,241);
+    background: radial-gradient(circle, rgba(241,241,241,1) 0%, rgba(148,187,233,1) 100%); */
+    /* gece hava */
+    background: rgb(61,48,116);
+    background: radial-gradient(circle, rgba(61,48,116,1) 0%, rgba(30,28,122,1) 100%);
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    margin-top: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding-bottom:1rem ;
+
+
+}
+.card-bottom{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row; 
+}
+.temperature{
+    font-size: 20px;
+    font-weight: bold;
+   
+}
+
+.description1{
+    margin-top:1rem;
+    font-size: 14px;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 90%;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    /* border: 1px solid white; */
+    margin-right: auto;
+    margin-left: auto;
+
+   
+}
+
+.row{
+    margin-top: 0px;
+    width: 100%;
+    /* height: 100vh !important; */
+
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* height: 100vh; */
+    
+}
+.other-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 1rem;
+    font-size: 14px;
+    border-radius: 5px;
+    background-color:#2d2d33;
+    /* margin-right: auto;
+    margin-left: auto; */
+    width: 100%;
+}
+
+.other-info-row{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    border-bottom: 1px solid white;
+    flex-direction: row;
+}
+
+.other-info-row img{
+    border-bottom: none;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.recommender{
+    height: 5vh;
+    background-color: rgb(199, 205, 209);
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-top: 1rem;
+    color: #2d2d33;
+    font-size: large;
+    align-items: center;
+    text-align: center;
+    display: flex;
+
+}
